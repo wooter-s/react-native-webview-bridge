@@ -12,6 +12,24 @@
 
 #import "RCTWebViewBridge.h"
 
+#import <UIKit/UIKit.h>
+
+//#import "RCTAutoInsetsProtocol.h"
+//#import "RCTConvert.h"
+//#import "RCTEventDispatcher.h"
+//#import "RCTLog.h"
+//#import "RCTUtils.h"
+//#import "RCTView.h"
+//#import "UIView+React.h"
+//#import <objc/runtime.h>
+#import <React/RCTAutoInsetsProtocol.h>
+#import <React/RCTConvert.h>
+#import <React/RCTEventDispatcher.h>
+#import <React/RCTLog.h>
+#import <React/RCTUtils.h>
+#import <React/RCTView.h>
+#import <React/UIView+React.h>
+#import <objc/runtime.h>
 //This is a very elegent way of defining multiline string in objective-c.
 //source: http://stackoverflow.com/a/23387659/828487
 #define NSStringMultiline(...) [[NSString alloc] initWithCString:#__VA_ARGS__ encoding:NSUTF8StringEncoding]
